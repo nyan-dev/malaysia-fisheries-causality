@@ -1,3 +1,6 @@
+> **Part of a fisheries research series.** This repo covers causality analysis.  
+> For the forecasting study see [`Predicting-Fish-Landings-Using-ML`](https://github.com/nyan-dev/Predicting-Fish-Landings-Using-ML) · For bycatch EDA see [`tuna-by-catch-data-analysis`](https://github.com/nyan-dev/tuna-by-catch-data-analysis)
+
 # Malaysia Fisheries & Economic Indicators — Time-Series Causality Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
@@ -104,6 +107,24 @@ Open notebooks in order (`phase1_2_v2.ipynb` → `phase7_v5_3var_ty.ipynb`) in J
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Related Repositories
+
+| Repo | Role |
+|---|---|
+| **This repo** | Time-series causality analysis (Toda-Yamamoto Granger) |
+| [`Predicting-Fish-Landings-Using-ML`](https://github.com/nyan-dev/Predicting-Fish-Landings-Using-ML) | ML-based fish landing forecasting |
+| [`tuna-by-catch-data-analysis`](https://github.com/nyan-dev/tuna-by-catch-data-analysis) | Tuna bycatch exploratory data analysis |
+
+---
+
+## Local Development Notes
+
+> The notebooks are currently named with phase-based prefixes (`phase1_2_v2`, `phase7_v5_3var_ty` etc.).
+> A planned cleanup will rename them into a cleaner numbered sequence and reorganise them into a `notebooks/` subfolder.
+> This requires local `git mv` to preserve history and fix any internal path references.
 
 ---
 
