@@ -1,0 +1,16 @@
+# Core data & statistics
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+
+# Visualisation
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Notebook environment
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: for scikit-learn preprocessing steps
+scikit-learn>=1.1.0
